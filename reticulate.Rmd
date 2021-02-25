@@ -87,6 +87,16 @@ class: right, middle
 ### `r fa(name = 'graduation-cap', fill = 'steelblue')` B.S. in IE from [NIU](https://www.niu.edu)
 
 ---
+
+# About MakuSafe
+
+### `r fa(name = 'building', fill = 'steelblue')` Startup based in West Des Moines
+
+### `r fa(name = 'mobile-alt', fill = 'steelblue')` Wearable tech focusing on worker safety
+
+### `r fa(name = 'chart-line', fill = 'steelblue')` Solution consists of hardware, software, and data
+
+---
 class: middle, inverse
 
 # What's on tap today?
