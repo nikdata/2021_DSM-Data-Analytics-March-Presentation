@@ -96,6 +96,34 @@ class: right, middle
 
 ### `r fa(name = 'chart-line', fill = 'steelblue')` Solution consists of hardware, software, and data
 
+**MākuSafe is a wearable technology solution designed to improve worker safety and reduce accidents in the workplace**
+
+---
+
+# What sets us apart
+
+* No personal biometric data collected
+
+* No disruption to wearer (i.e., no visual, auditory, or haptic feedback)
+
+* No continuous monitoring (i.e., device only activates when it senses hazards)
+
+* We focus exclusively on the environment around a worker and not just the worker
+
+<img src='img/makusafe-logo.png' >
+
+---
+
+# Fast Growth
+
+<img class='center' src='img/makusafe-recognition.png' >
+
+---
+
+# MakuSafe Wearable
+
+<img class='center' src='img/wearable-tech.png' >
+
 ---
 class: middle, inverse
 
@@ -141,6 +169,8 @@ class: middle, inverse
 --
 
 No good IDE for Python
+
+Parallel processing in R isn't great
 
 --
 
@@ -237,6 +267,8 @@ df = pd$read_csv(<file>)
 # There has to be a catch...
 
 Reticulate may not work with all python packages.
+
+Small hit to performance & memory.
 
 I have not run into any significant issues. Just quirks (see "Demo").
 
