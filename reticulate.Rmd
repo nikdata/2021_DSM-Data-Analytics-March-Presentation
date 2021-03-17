@@ -44,7 +44,8 @@ style_xaringan(
     ".large" = list("font-family" = "Source Sans Pro"),
     "img.circle" = list('border-radius' = '50%'),
     "h3" = list("font-family" = 'Source Sans Pro'),
-    "img.center" = list("margin-left" = "auto", "margin-right" = "auto")
+    "img.center" = list("margin-left" = "auto", "margin-right" = "auto"),
+    ".remark-slide-number" = list('opacity' = 0L)
   )
 )
 ```
@@ -60,7 +61,7 @@ background-size: cover
 
 ### .fancy[Using the best of <br /> Python in R]
 
-### .large[Nik Agarwal | `r Sys.Date()`]
+### .large[Nik Agarwal | 2021-03-24]
 
 ---
 class: right, middle
@@ -266,7 +267,7 @@ df = pd$read_csv(<file>)
 
 # There has to be a catch...
 
-Reticulate may not work with all python packages.
+Reticulate may not work with all python package versions.
 
 Small hit to performance & memory.
 

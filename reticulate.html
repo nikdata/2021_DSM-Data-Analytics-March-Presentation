@@ -4,7 +4,7 @@
     <title>Reticulate</title>
     <meta charset="utf-8" />
     <meta name="author" content="Nikhil Agarwal" />
-    <meta name="date" content="2021-03-01" />
+    <meta name="date" content="2021-03-17" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
@@ -27,7 +27,7 @@ background-size: cover
 
 ### .fancy[Using the best of &lt;br /&gt; Python in R]
 
-### .large[Nik Agarwal | 2021-03-01]
+### .large[Nik Agarwal | 2021-03-24]
 
 ---
 class: right, middle
@@ -233,7 +233,7 @@ df = pd$read_csv(&lt;file&gt;)
 
 # There has to be a catch...
 
-Reticulate may not work with all python packages.
+Reticulate may not work with all python package versions.
 
 Small hit to performance &amp; memory.
 
@@ -268,7 +268,7 @@ dplyr::glimpse(df)
 ## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NaN, 19.3, 20.6, 17.8, 19.6, 18.1,…
 ## $ flipper_length_mm &lt;dbl&gt; 181, 186, 195, NaN, 193, 190, 181, 195, 193, 190, 18…
 ## $ body_mass_g       &lt;dbl&gt; 3750, 3800, 3250, NaN, 3450, 3650, 3625, 4675, 3475,…
-## $ gender            &lt;list&gt; ["male", "female", "female", NaN, "female", "male",…
+## $ gender            &lt;list&gt; "male", "female", "female", NaN, "female", "male", …
 ## $ year              &lt;dbl&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…
 ```
 ---
@@ -296,7 +296,7 @@ dplyr::glimpse(df)
 ## $ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …
 ## $ flipper_length_mm &lt;dbl&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…
 ## $ body_mass_g       &lt;dbl&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …
-## $ gender            &lt;list&gt; ["male", "female", "female", NA, "female", "male", …
+## $ gender            &lt;list&gt; "male", "female", "female", NA, "female", "male", "…
 ## $ year              &lt;dbl&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…
 ```
 
