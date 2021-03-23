@@ -114,6 +114,7 @@ class: right, middle
 <img src='img/makusafe-logo.png' >
 
 ---
+exclude: true
 
 # Fast Growth
 
@@ -145,11 +146,7 @@ class: middle, inverse
 ---
 class: middle, inverse
 
-# What is {reticulate}
-
---
-
-### `r fa(name = 'map', fill = 'steelblue')` R Interface to Python
+# What does {reticulate} do?
 
 --
 
@@ -158,10 +155,6 @@ class: middle, inverse
 --
  
 ### `r fa(name = 'language', fill = 'steelblue')` Translate R & Python objects between each other  
-
---
-
-### `r fa(name = 'globe', fill = 'steelblue')` Work within any virtual environment  
 
 ---
 
@@ -180,8 +173,8 @@ Parallel processing in R isn't great
 ## `r fa(name = 'heart-broken', fill = 'steelblue')` Python
 
 - #### data wrangling is not fun
+
 - #### making plots is a disaster
-- #### "for programmers by programmers"
 
 ]
 
@@ -193,7 +186,7 @@ Parallel processing in R isn't great
 
 - #### scikit-learn is awesome!
 - #### deep learning!
-- #### some libraries are easier to use (e.g., SMOTE, JSON)
+- #### some libraries are more powerful (e.g., SMOTE, JSON)
 
 ]
 
@@ -343,7 +336,9 @@ df %>%
 
 # My Suggestions
 
-#### `r fa(name = 'r-project', fill = 'steelblue')` Use R functions as much as possible
+#### `r fa(name = 'wrench', fill = 'steelblue')` Keep Python packages up to date
+
+#### `r fa(name = 'r-project', fill = 'steelblue')` Use native R functions often
 
 #### `r fa(name = 'file', fill = 'steelblue')` Check the RStudio Docs - very detailed
 
